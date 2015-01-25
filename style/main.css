@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main_navigator {
+	font-family: Arial, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	background-color: #00B0F0;
+	float: left;
+	height: 100%;
+	width: 200px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	-webkit-transition: all;
+	-o-transition: all;
+	transition: all;
+	z-index: 0;
+	padding-top: 0px;
+}
+.top_bar {
+	background-color: #000000;
+	height: 46px;
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+	left: 0px;
+	top: 0px;
+	opacity: 0.2;
+}
+.ASA_Header {
+	font-family: Arial, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, sans-serif;
+	font-weight: bold;
+	color: #FFFFFF;
+	height: 46px;
+	width: 200px;
+	position: absolute;
+	z-index: 2;
+	text-align: center;
+	left: 0px;
+	line-height: 30px;
+	padding-top: 0%;
+	font-size: 140%;
+}
+.Sign_Header {
+	font-family: Arial, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, sans-serif;
+	font-weight: bold;
+	color: #D9680D;
+	height: 46px;
+	width: 300px;
+	position: absolute;
+	z-index: 2;
+	text-align: right;
+	right: 0px;
+	line-height: 30px;
+	padding-top: 0%;
+	padding-right: 20px;
+	font-size: 120%;
+}
+.body_container {
+	height: 100%;
+	z-index: 0;
+	padding-left: 200px;
+	top: -10px;
+	left: 0px;
+	position: absolute;
+}
+.fadeIn {
+        /* CSS needed for animation
+        ---------------------------------------------------- */
+        opacity:0;
+        -webkit-animation:fadeIn ease-in 1;
+        -moz-animation:fadeIn ease-in 1;
+        -o-animation:fadeIn ease-in 1;
+        animation:fadeIn ease-in 1;
+        -webkit-animation-fill-mode:forwards;
+        -moz-animation-fill-mode:forwards;
+        -o-animation-fill-mode:forwards;
+        animation-fill-mode:forwards;
+}
+/* Animation Times - Time for image to fade in
+---------------------------------------------------- */
+.fadeIn-1s {
+        -webkit-animation-duration:1s;
+        -moz-animation-duration:1s;
+        -o-animation-duration:1s;
+        animation-duration:1s;
+}
+/* Animation Delay - Time for image to be delayed
+---------------------------------------------------- */
+.fadeIn-Delay-50ms {
+        -webkit-animation-delay:0.5s;
+        -moz-animation-delay:0.5s;
+        -o-animation-delay:0.5s;
+        animation-delay:0.5s;
+}
+.fadeIn-Delay-100ms {
+        -webkit-animation-delay:1s;
+        -moz-animation-delay:1s;
+        -o-animation-delay:1s;
+        animation-delay:1s;
+}
+.fadeIn-Delay-150ms {
+        -webkit-animation-delay:1.5s;
+        -moz-animation-delay:1.5s;
+        -o-animation-delay:1.5s;
+        animation-delay:1.5s;
+}
+/* Key Frames
+---------------------------------------------------- */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-o-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.body_container h1 {
+	position: absolute;
+	float: right;
+	z-index: 2;
+	color: #00B0F0;
+	bottom: 80px;
+	right: 50px;
+	width: 300px;
+	font-family: Arial, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, sans-serif;
+	font-style: normal;
+	text-align: right;
+	font-size: 320%;
+}
+.body_container h2 {
+	position: absolute;
+	float: right;
+	z-index: 2;
+	color: #00B0F0;
+	bottom: 45px;
+	right: 50px;
+	width: 600px;
+	font-family: Arial, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, sans-serif;
+	font-style: normal;
+	text-align: right;
+	font-size: 180%;
+}
+.body_container p {
+	position: absolute;
+	float: right;
+	z-index: 2;
+	color: #929292;
+	bottom: 10px;
+	right: 50px;
+	width: 300px;
+	font-family: Arial, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, sans-serif;
+	font-style: normal;
+	text-align: right;
+	font-size: 100%;
+}
