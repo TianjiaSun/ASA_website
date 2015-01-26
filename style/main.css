@@ -190,7 +190,7 @@
 }
 .navigator_blank {
 	width: 200px;
-	height: 63px;
+	height: 54px;
 }
 .main_navigator h1 {
 	font-size: 20px;
@@ -202,9 +202,24 @@
 	position: relative;
 	line-height: 34px;
 	padding-left: 10px;
+	margin-top: 30px;
 	margin-left: 10px;
 	margin-right: 0px;
 	border-color: #33CCFF;
 	color: #FFFFFF;
 	font-weight: bold;
+}
+.main_navigator h2 {
+	font-size: 16px;
+	font-family: Arial, Gotham, "Helvetica Neue", Helvetica, sans-serif;
+	height: 12px;
+	width: 148px;
+	position: relative;
+	line-height: 24px;
+	padding-left: 20px;
+	margin-left: 20px;
+	margin-right: 0px;
+	border-color: #33CCFF;
+	color: #E0E0E0;
+	font-weight: normal;
 }
