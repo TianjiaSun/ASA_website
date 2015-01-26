@@ -2,11 +2,6 @@
 /* CSS Document */
 
 .main_navigator {
-	font-family: Arial, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, sans-serif;
-	font-size: 20px;
-	font-style: normal;
-	line-height: normal;
-	font-weight: normal;
 	background-color: #00B0F0;
 	float: left;
 	height: 100%;
@@ -28,7 +23,6 @@
 	z-index: 1;
 	left: 0px;
 	top: 0px;
-	opacity: 0.2;
 }
 .ASA_Header {
 	font-family: Arial, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, sans-serif;
@@ -40,9 +34,17 @@
 	z-index: 2;
 	text-align: center;
 	left: 0px;
-	line-height: 30px;
+	top: 0px;
+	line-height: 46px;
 	padding-top: 0%;
 	font-size: 140%;
+}
+.ASA_Header a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.ASA_Header a:hover {
+	color: #FFBB28;
 }
 .Sign_Header {
 	font-family: Arial, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, sans-serif;
@@ -54,10 +56,18 @@
 	z-index: 2;
 	text-align: right;
 	right: 0px;
-	line-height: 30px;
+	top: 0px;
+	line-height: 46px;
 	padding-top: 0%;
 	padding-right: 20px;
 	font-size: 120%;
+	-webkit-transition: all 0.2s linear 0s;
+	-o-transition: all 0.2s linear 0s;
+	transition: all 0.2s linear 0s;
+}
+.Sign_Header a {
+	text-decoration: none;
+	color: #D9680D;
 }
 .body_container {
 	height: 100%;
@@ -82,6 +92,12 @@
 }
 /* Animation Times - Time for image to fade in
 ---------------------------------------------------- */
+.fadeIn-50ms {
+        -webkit-animation-duration:0.5s;
+        -moz-animation-duration:0.5s;
+        -o-animation-duration:0.5s;
+        animation-duration:0.5s;
+}
 .fadeIn-100ms {
         -webkit-animation-duration:1s;
         -moz-animation-duration:1s;
@@ -173,26 +189,11 @@
 	text-align: right;
 	font-size: 100%;
 }
-
-.navigator_text {
-	font-family: Arial, Gotham, "Helvetica Neue", Helvetica, sans-serif;
-	height: 20px;
-	width: 168px;
-	border-width: 2px;
-	border-style: solid none none;
-	position: relative;
-	line-height: 30px;
-	padding-left: 10px;
-	margin-left: 10px;
-	margin-right: 0px;
-	border-color: #33CCFF;
-	color: #FFFFFF;
-}
 .navigator_blank {
 	width: 200px;
 	height: 54px;
 }
-.main_navigator h1 {
+.main_navigator_h1 {
 	font-size: 20px;
 	font-family: Arial, Gotham, "Helvetica Neue", Helvetica, sans-serif;
 	height: 26px;
@@ -201,25 +202,55 @@
 	border-style: solid none none;
 	position: relative;
 	line-height: 34px;
-	padding-left: 10px;
+	padding-left: 0px;
+	padding-bottom: 7px;
 	margin-top: 30px;
 	margin-left: 10px;
 	margin-right: 0px;
 	border-color: #33CCFF;
 	color: #FFFFFF;
 	font-weight: bold;
+	-webkit-transition: all 0.2s linear 0s;
+	-o-transition: all 0.2s linear 0s;
+	transition: all 0.2s linear 0s;
+	z-index: 3;
 }
-.main_navigator h2 {
-	font-size: 16px;
+.main_navigator_h1 a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.main_navigator_h2 {
+	font-size: 18px;
 	font-family: Arial, Gotham, "Helvetica Neue", Helvetica, sans-serif;
-	height: 12px;
+	height: 28px;
 	width: 148px;
 	position: relative;
 	line-height: 24px;
-	padding-left: 20px;
+	padding-left: 7px;
 	margin-left: 20px;
 	margin-right: 0px;
 	border-color: #33CCFF;
 	color: #E0E0E0;
 	font-weight: normal;
+	z-index: 3;
+}
+.main_navigator_h2 a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.gausian_logo {
+	width: 200px;
+	bottom: 10px;
+	left: 0px;
+	float: left;
+	position: absolute;
+}
+.Sign_Header a:hover {
+	color: #FFFFFF;
+}
+.main_navigator_h1 a:hover {
+	color: #FFBB28;
+}
+.main_navigator_h2 a:hover {
+	color: #FFBB28;
 }
