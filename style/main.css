@@ -82,6 +82,9 @@
 	left: 200px;
 	right: 0px;
 	bottom: 0px;
+	overflow-y: scroll;
+	min-width: 1000px;
+	min-height: 650px;
 }
 .fadeIn {
         /* CSS needed for animation
@@ -350,4 +353,324 @@
 }
 .main_navigator_h2 a:hover {
 	color: #FFBB28;
+}
+.main_essential_app {
+	text-align: center;
+	color: #000000;
+	font-family: Arial, Gotham, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 12pt;
+	position: absolute;
+	z-index: 4;
+	width: 100px;
+	height: 46px;
+	line-height: 46px;
+	font-weight: bold;
+	border-radius: 33px;
+}
+.essential_app {
+	text-align: center;
+	color: #000000;
+	font-family: Arial, Gotham, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 11pt;
+	position: absolute;
+	z-index: 4;
+	height: 28px;
+	line-height: 28px;
+	font-weight: bold;
+	border-radius: 33px;
+}
+
+
+.customers {
+	top: 69.5%;
+	left: 70.5%;
+	background-color: #71bfd2;
+}
+.customers:hover {
+	background-color: #00b0f0;
+	color: #FFFFFF;
+}
+.bills {
+	top: 60%;
+	left: 81%;
+	width: 63px;
+	background-color: #71bfd2;
+}
+.bills:hover {
+	background-color: #00b0f0;
+	color: #FFFFFF;
+}
+.recipts {
+	top: 67%;
+	left: 84%;
+	width: 76px;
+	background-color: #71bfd2;
+}
+.recipts:hover {
+	background-color: #00b0f0;
+	color: #FFFFFF;
+}
+.returns {
+	top: 74%;
+	left: 84%;
+	width: 76px;
+	background-color: #71bfd2;
+}
+.returns:hover {
+	background-color: #00b0f0;
+	color: #FFFFFF;
+}
+.refund {
+	top: 81%;
+	left: 81%;
+	width: 76px;
+	background-color: #71bfd2;
+}
+.refund:hover {
+	background-color: #00b0f0;
+	color: #FFFFFF;
+}
+.orders {
+	top: 56%;
+	left: 61%;
+	width: 84px;
+	background-color: #71bfd2;
+}
+.orders:hover {
+	background-color: #00b0f0;
+	color: #FFFFFF;
+}
+.quotes {
+	top: 70%;
+	left: 62%;
+	width: 87px;
+	background-color: #71bfd2;
+}
+.quotes:hover {
+	background-color: #00b0f0;
+	color: #FFFFFF;
+}
+.employees {
+	top: 40.5%;
+	left: 25.5%;
+	background-color: #92d050;
+}
+.employees:hover {
+	background-color: #00b0f0;
+	color: #FFFFFF;
+}
+.payroll {
+	top: 33.5%;
+	left: 16%;
+	width: 84px;
+	background-color: #92d050;
+}
+.payroll:hover {
+	background-color: #00b0f0;
+	color: #FFFFFF;
+}
+.reimbursement {
+	top: 40.5%;
+	left: 9%;
+	width: 142px;
+	background-color: #92d050;
+}
+.reimbursement:hover {
+	background-color: #00b0f0;
+	color: #FFFFFF;
+}
+.agenda {
+	top: 49.5%;
+	left: 10%;
+	width: 110px;
+	background-color: #92d050;
+}
+.agenda:hover {
+	background-color: #00b0f0;
+	color: #FFFFFF;
+}
+.departments {
+	top: 57.5%;
+	left: 11%;
+	width: 106px;
+	background-color: #92d050;
+}
+.departments:hover {
+	background-color: #00b0f0;
+	color: #FFFFFF;
+}
+.jobs {
+	top: 64.5%;
+	left: 12%;
+	width: 88px;
+	background-color: #92d050;
+}
+.jobs:hover {
+	background-color: #00b0f0;
+	color: #FFFFFF;
+}
+.projects {
+	top: 64.2%;
+	left: 30.5%;
+	background-color: #febb28;
+}
+.projects:hover {
+	background-color: #00b0f0;
+	color: #FFFFFF;
+}
+.keynotes {
+	top: 69.1%;
+	left: 21.5%;
+	width: 90px;
+	background-color: #febb28;
+}
+.keynotes:hover {
+	background-color: #00b0f0;
+	color: #FFFFFF;
+}
+.products {
+	top: 60.2%;
+	left: 42.5%;
+	background-color: #ff7979;
+}
+.products:hover {
+	background-color: #00b0f0;
+	color: #FFFFFF;
+}
+.parts {
+	top: 49.1%;
+	left: 44.3%;
+	width: 63px;
+	background-color: #ff7979;
+}
+.parts:hover {
+	background-color: #00b0f0;
+	color: #FFFFFF;
+}
+.discounts {
+	top: 63%;
+	left: 53.3%;
+	width: 104px;
+	background-color: #ff7979;
+}
+.discounts:hover {
+	background-color: #00b0f0;
+	color: #FFFFFF;
+}
+.vendors {
+	top: 36%;
+	left: 49%;
+	background-color: #bfb1cf;
+}
+.vendors:hover {
+	background-color: #00b0f0;
+	color: #FFFFFF;
+}
+.get_service {
+	top: 32.1%;
+	left: 36.3%;
+	width: 107px;
+	background-color: #bfb1cf;
+}
+.get_service:hover {
+	background-color: #00b0f0;
+	color: #FFFFFF;
+}
+.purchase {
+	top: 39%;
+	left: 37%;
+	width: 88px;
+	background-color: #bfb1cf;
+}
+.purchase:hover {
+	background-color: #00b0f0;
+	color: #FFFFFF;
+}
+.inventory {
+	top: 36.5%;
+	left: 71.5%;
+	background-color: #febb28;
+}
+.inventory:hover {
+	background-color: #00b0f0;
+	color: #FFFFFF;
+}
+.warehouse {
+	top: 36%;
+	left: 81.5%;
+	width: 113px;
+	background-color: #febb28;
+}
+.warehouse:hover {
+	background-color: #00b0f0;
+	color: #FFFFFF;
+}
+.ship_in {
+	top: 33%;
+	left: 62%;
+	width: 73px;
+	background-color: #febb28;
+}
+.ship_in:hover {
+	background-color: #00b0f0;
+	color: #FFFFFF;
+}
+.ship_out {
+	top: 49%;
+	left: 68%;
+	width: 81px;
+	background-color: #febb28;
+}
+.ship_out:hover {
+	background-color: #00b0f0;
+	color: #FFFFFF;
+}
+.bank_account {
+	top: 81.5%;
+	left: 45.5%;
+	background-color: #bfbfbf;
+}
+.bank_account:hover {
+	background-color: #00b0f0;
+	color: #FFFFFF;
+}
+.transaction_in {
+	top: 82.4%;
+	left: 33.5%;
+	width: 126px;
+	background-color: #bfbfbf;
+}
+.transaction_in:hover {
+	background-color: #00b0f0;
+	color: #FFFFFF;
+}
+.transaction_out {
+	top: 82.4%;
+	left: 55.5%;
+	width: 126px;
+	background-color: #bfbfbf;
+}
+.transaction_out:hover {
+	background-color: #00b0f0;
+	color: #FFFFFF;
+}
+.user {
+	top: 78.5%;
+	left: 15.5%;
+	width: 126px;
+	background-color: #bfbfbf;
+}
+.user:hover {
+	background-color: #00b0f0;
+	color: #FFFFFF;
+}
+.file {
+	top: 83.5%;
+	left: 15.5%;
+	width: 126px;
+	background-color: #bfbfbf;
+}
+.file:hover {
+	background-color: #00b0f0;
+	color: #FFFFFF;
 }
