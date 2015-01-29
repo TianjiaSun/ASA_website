@@ -73,7 +73,7 @@
 }
 .Sign_Header a {
 	text-decoration: none;
-	color: #D9680D;
+	color: #FFBB28;
 }
 .body_container {
 	position: absolute;
@@ -150,6 +150,12 @@
         -moz-animation-delay:1.5s;
         -o-animation-delay:1.5s;
         animation-delay:1.5s;
+}
+.fadeIn-Delay-200ms {
+        -webkit-animation-delay:2s;
+        -moz-animation-delay:2s;
+        -o-animation-delay:2s;
+        animation-delay:2s;
 }
 /* Key Frames
 ---------------------------------------------------- */
@@ -358,10 +364,10 @@
 	text-align: center;
 	color: #000000;
 	font-family: Arial, Gotham, "Helvetica Neue", Helvetica, sans-serif;
-	font-size: 12pt;
+	font-size: 12.5pt;
 	position: absolute;
 	z-index: 4;
-	width: 100px;
+	width: 110px;
 	height: 46px;
 	line-height: 46px;
 	font-weight: bold;
@@ -374,8 +380,8 @@
 	font-size: 11pt;
 	position: absolute;
 	z-index: 4;
-	height: 28px;
-	line-height: 28px;
+	height: 32px;
+	line-height: 32px;
 	font-weight: bold;
 	border-radius: 33px;
 }
@@ -383,7 +389,7 @@
 
 .customers {
 	top: 69.5%;
-	left: 70.5%;
+	left: 71.5%;
 	background-color: #71bfd2;
 }
 .customers:hover {
@@ -461,7 +467,7 @@
 }
 .payroll {
 	top: 33.5%;
-	left: 16%;
+	left: 16.5%;
 	width: 84px;
 	background-color: #92d050;
 }
@@ -470,7 +476,7 @@
 	color: #FFFFFF;
 }
 .reimbursement {
-	top: 40.5%;
+	top: 41%;
 	left: 9%;
 	width: 142px;
 	background-color: #92d050;
@@ -480,7 +486,7 @@
 	color: #FFFFFF;
 }
 .agenda {
-	top: 49.5%;
+	top: 50%;
 	left: 10%;
 	width: 110px;
 	background-color: #92d050;
@@ -490,7 +496,7 @@
 	color: #FFFFFF;
 }
 .departments {
-	top: 57.5%;
+	top: 58%;
 	left: 11%;
 	width: 106px;
 	background-color: #92d050;
@@ -500,7 +506,7 @@
 	color: #FFFFFF;
 }
 .jobs {
-	top: 64.5%;
+	top: 65%;
 	left: 12%;
 	width: 88px;
 	background-color: #92d050;
@@ -548,8 +554,8 @@
 	color: #FFFFFF;
 }
 .discounts {
-	top: 63%;
-	left: 53.3%;
+	top: 62.5%;
+	left: 54%;
 	width: 104px;
 	background-color: #ff7979;
 }
@@ -558,7 +564,7 @@
 	color: #FFFFFF;
 }
 .vendors {
-	top: 36%;
+	top: 35.5%;
 	left: 49%;
 	background-color: #bfb1cf;
 }
@@ -606,9 +612,9 @@
 	color: #FFFFFF;
 }
 .ship_in {
-	top: 33%;
+	top: 32.5%;
 	left: 62%;
-	width: 73px;
+	width: 82px;
 	background-color: #febb28;
 }
 .ship_in:hover {
@@ -616,7 +622,7 @@
 	color: #FFFFFF;
 }
 .ship_out {
-	top: 49%;
+	top: 48.2%;
 	left: 68%;
 	width: 81px;
 	background-color: #febb28;
@@ -626,7 +632,7 @@
 	color: #FFFFFF;
 }
 .bank_account {
-	top: 81.5%;
+	top: 81%;
 	left: 45.5%;
 	background-color: #bfbfbf;
 }
@@ -635,7 +641,7 @@
 	color: #FFFFFF;
 }
 .transaction_in {
-	top: 82.4%;
+	top: 82.1%;
 	left: 33.5%;
 	width: 126px;
 	background-color: #bfbfbf;
@@ -645,8 +651,8 @@
 	color: #FFFFFF;
 }
 .transaction_out {
-	top: 82.4%;
-	left: 55.5%;
+	top: 82.1%;
+	left: 56%;
 	width: 126px;
 	background-color: #bfbfbf;
 }
@@ -665,7 +671,7 @@
 	color: #FFFFFF;
 }
 .file {
-	top: 83.5%;
+	top: 84.5%;
 	left: 15.5%;
 	width: 126px;
 	background-color: #bfbfbf;
