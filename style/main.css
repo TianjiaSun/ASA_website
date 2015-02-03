@@ -44,10 +44,31 @@
 	line-height: 46px;
 	padding-top: 0%;
 	font-size: 140%;
+	text-decoration: none;
+}
+.ASA_Header_homepage {
+	font-family: Arial, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, sans-serif;
+	font-weight: bold;
+	color: #FFBB28;
+	height: 46px;
+	width: 200px;
+	position: absolute;
+	z-index: 2;
+	text-align: center;
+	left: 0px;
+	top: 0px;
+	line-height: 46px;
+	padding-top: 0%;
+	font-size: 140%;
+	text-decoration: none;
 }
 .ASA_Header a {
 	text-decoration: none;
 	color: #FFFFFF;
+}
+.ASA_Header_homepage a {
+	text-decoration: none;
+	color: #FFBB28;
 }
 .ASA_Header a:hover {
 	color: #FFBB28;
@@ -78,7 +99,7 @@
 .body_container {
 	position: absolute;
 	z-index: 0;
-	top: 0px;
+	top: 46px;
 	left: 200px;
 	right: 0px;
 	bottom: 0px;
@@ -175,7 +196,7 @@
 	text-align: left;
 	font-size: 320%;
 	left: 50px;
-	top: 35px;
+	top: 0px;
 	right: 0px;
 	clear: left;
 	padding-bottom: 0px;
@@ -191,7 +212,7 @@
 	text-align: left;
 	font-size: 140%;
 	left: 50px;
-	top: -8px;
+	top: -47px;
 	right: 0px;
 	clear: left;
 	height: 0px;
