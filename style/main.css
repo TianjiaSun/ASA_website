@@ -20,6 +20,7 @@
 	overflow-x: auto;
 	overflow-y: auto;
 	clear: left;
+	min-height: 696px;
 }
 .top_bar {
 	background-color: #000000;
@@ -104,6 +105,17 @@
 	right: 0px;
 	bottom: 0px;
 	overflow-y: scroll;
+	min-width: 1000px;
+	min-height: 650px;
+}
+.body_container_no_scroll {
+	position: absolute;
+	z-index: 0;
+	top: 46px;
+	left: 200px;
+	right: 0px;
+	bottom: 0px;
+	overflow-y: hidden;
 	min-width: 1000px;
 	min-height: 650px;
 }
