@@ -229,6 +229,26 @@
 	clear: left;
 	height: 0px;
 }
+.body_container_h2 {
+	position: relative;
+	float: left;
+	z-index: 2;
+	color: #00B0F0;
+	right: 0px;
+	font-family: Arial, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, sans-serif;
+	font-style: normal;
+	text-align: left;
+	font-size: 3.3vh;
+	left: 50px;
+	top: -47px;
+	right: 0px;
+	clear: left;
+	height: 0px;
+	text-decoration: none;
+}
+.body_container_h2:hover {
+	text-decoration: none;
+}
 .body_container h4 {
 	position: absolute;
 	float: right;
@@ -909,8 +929,9 @@ box-shadow: 0 0 4vh white;
 background: #FFBB28;
 cursor: pointer;
 }
-#path27:hover{
-	opacity: 0.1;
-	fill:red;
-	box-shadow: 0 0 10px white;
+.nodec {
+text-decoration: none;
+}
+.nodec:hover; {
+text-decoration: none;
 }
