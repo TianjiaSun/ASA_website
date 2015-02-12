@@ -88,7 +88,7 @@
 	line-height: 46px;
 	padding-top: 0%;
 	padding-right: 20px;
-	font-size: 120%;
+	font-size: 110%;
 	-webkit-transition: all 0.2s linear 0s;
 	-o-transition: all 0.2s linear 0s;
 	transition: all 0.2s linear 0s;
@@ -206,7 +206,7 @@
 	font-family: Arial, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, sans-serif;
 	font-style: normal;
 	text-align: left;
-	font-size: 320%;
+	font-size: 6.5vh;
 	left: 50px;
 	top: 0px;
 	right: 0px;
@@ -222,7 +222,7 @@
 	font-family: Arial, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, sans-serif;
 	font-style: normal;
 	text-align: left;
-	font-size: 140%;
+	font-size: 3.3vh;
 	left: 50px;
 	top: -47px;
 	right: 0px;
@@ -264,7 +264,7 @@
 	font-family: Arial, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, sans-serif;
 	font-style: normal;
 	text-align: left;
-	font-size: 110%;
+	font-size: 2.2vh;
 	left: 0px;
 	top: -44px;
 	right: 0px;
@@ -276,6 +276,15 @@
 .full_container_img{
 	position: absolute;
 	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	float: left;
+}
+.full_container_img_nodrag{
+	position: absolute;
 	height: 100%;
 	left: 0px;
 	top: 0px;
@@ -712,4 +721,196 @@
 .file:hover {
 	background-color: #00b0f0;
 	color: #FFFFFF;
+}
+.asa_exchanger {
+position: absolute;
+background: rgb(60, 60, 60);
+left: 33vw;
+top: 37vh;
+width: 18vh;
+height: 18vh;
+border-radius: 20vh;
+border-style: solid;
+border-width: 2vh;
+border-color: rgb(51,176,240);
+line-height: 6vh;
+text-align: center;
+font-family: arial;
+font-weight: bold;
+font-size: 3vh;
+color: white;
+box-shadow: 0 0 2vh white;
+}
+.asa_exchanger:hover {
+box-shadow: 0 0 4vh white;
+border-color: #FFBB28;
+cursor: pointer;
+background: rgb(30, 30, 30);
+}
+.asa_exchanger_text {
+	position: relative;
+	left: 0;
+	top: 0;
+	padding-top: 4vh;
+	width: 18vh;
+	height: 18vh;
+	border-radius: 20vh;
+	line-height: 4vh;
+	text-align: center;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 3vh;
+	color: white;
+}
+.service_app_1 {
+position: absolute;
+background: rgb(135, 214, 255);
+left: 13vw;
+top: 27vh;
+width: 6vh;
+height: 6vh;
+border-radius: 8vh;
+line-height: 6vh;
+text-align: center;
+font-family: arial;
+font-weight: bold;
+font-size: 3.5vh;
+color: white;
+box-shadow: 0 0 2vh white;
+}
+.service_app_1:hover {
+box-shadow: 0 0 4vh white;
+background: #FFBB28;
+cursor: pointer;
+}
+.service_app_2 {
+position: absolute;
+background: rgb(155, 221, 255);
+left: 44vw;
+top: 5vh;
+width: 4vh;
+height: 4vh;
+border-radius: 8vh;
+line-height: 4.1vh;
+text-align: center;
+font-family: arial;
+font-weight: bold;
+font-size: 2.5vh;
+color: white;
+box-shadow: 0 0 2vh white;
+}
+.service_app_2:hover {
+box-shadow: 0 0 4vh white;
+background: #FFBB28;
+cursor: pointer;
+}
+.service_app_3 {
+position: absolute;
+background: rgb(74, 193, 255);
+left: 57vw;
+top: 28vh;
+width: 7vh;
+height: 7vh;
+border-radius: 8vh;
+line-height: 7.2vh;
+text-align: center;
+font-family: arial;
+font-weight: bold;
+font-size: 4.2vh;
+color: white;
+box-shadow: 0 0 2vh white;
+}
+.service_app_3:hover {
+box-shadow: 0 0 4vh white;
+background: #FFBB28;
+cursor: pointer;
+}
+.service_app_4 {
+position: absolute;
+background: rgb(85, 197, 255);
+left: 32vw;
+top: 22vh;
+width: 8vh;
+height: 8vh;
+border-radius: 8.3vh;
+line-height: 8vh;
+text-align: center;
+font-family: arial;
+font-weight: bold;
+font-size: 5vh;
+color: white;
+box-shadow: 0 0 2vh white;
+}
+.service_app_4:hover {
+box-shadow: 0 0 4vh white;
+background: #FFBB28;
+cursor: pointer;
+}
+.user_app_1 {
+position: absolute;
+background: rgb(135, 214, 255);
+left: 20vw;
+top: 65vh;
+width: 7vh;
+height: 7vh;
+border-radius: 2vh;
+line-height: 7vh;
+text-align: center;
+font-family: arial;
+font-weight: bold;
+font-size: 4.5vh;
+color: white;
+box-shadow: 0 0 2vh white;
+}
+.user_app_1:hover {
+box-shadow: 0 0 4vh white;
+background: #FFBB28;
+cursor: pointer;
+}
+.user_app_2 {
+position: absolute;
+background: rgb(135, 214, 255);
+left: 35vw;
+top: 72vh;
+width: 9vh;
+height: 9vh;
+border-radius: 2vh;
+line-height: 9vh;
+text-align: center;
+font-family: arial;
+font-weight: bold;
+font-size: 5.5vh;
+color: white;
+box-shadow: 0 0 2vh white;
+}
+.user_app_2:hover {
+box-shadow: 0 0 4vh white;
+background: #FFBB28;
+cursor: pointer;
+}
+.user_app_3 {
+position: absolute;
+background: rgb(135, 214, 255);
+left: 53vw;
+top: 63vh;
+width: 8vh;
+height: 8vh;
+border-radius: 2vh;
+line-height: 8vh;
+text-align: center;
+font-family: arial;
+font-weight: bold;
+font-size: 4.5vh;
+color: white;
+box-shadow: 0 0 2vh white;
+}
+.user_app_3:hover {
+box-shadow: 0 0 4vh white;
+background: #FFBB28;
+cursor: pointer;
+}
+#path27:hover{
+	opacity: 0.1;
+	fill:red;
+	box-shadow: 0 0 10px white;
 }
