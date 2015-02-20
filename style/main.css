@@ -293,6 +293,9 @@
 	padding-left: 50px;
 	padding-right: 50px;
 }
+.body_container a {
+	text-decoration: none;
+}
 .full_container_img{
 	position: absolute;
 	width: 100%;
