@@ -4,7 +4,7 @@
 .main_navigator {
 	background-color: #00B0F0;
 	float: left;
-	width: 200px;
+	width: 220px;
 	position: absolute;
 	left: 0px;
 	top: 0px;
@@ -36,15 +36,15 @@
 	font-weight: bold;
 	color: #FFFFFF;
 	height: 46px;
-	width: 200px;
+	width: 220px;
 	position: absolute;
 	z-index: 2;
-	text-align: center;
-	left: 0px;
+	text-align: left;
+	left: 15px;
 	top: 0px;
 	line-height: 46px;
 	padding-top: 0%;
-	font-size: 140%;
+	font-size: 146%;
 	text-decoration: none;
 }
 .ASA_Header_homepage {
@@ -101,7 +101,7 @@
 	position: absolute;
 	z-index: 0;
 	top: 46px;
-	left: 200px;
+	left: 220px;
 	right: 0px;
 	bottom: 0px;
 	overflow-y: scroll;
@@ -112,7 +112,7 @@
 	position: absolute;
 	z-index: 0;
 	top: 46px;
-	left: 200px;
+	left: 220px;
 	right: 0px;
 	bottom: 0px;
 	overflow-y: hidden;
@@ -324,7 +324,7 @@
 	font-size: 20px;
 	font-family: Arial, Gotham, "Helvetica Neue", Helvetica, sans-serif;
 	height: 26px;
-	width: 168px;
+	width: 182px;
 	border-width: 2px;
 	border-style: solid none none;
 	position: relative;
@@ -346,7 +346,7 @@
 	font-size: 20px;
 	font-family: Arial, Gotham, "Helvetica Neue", Helvetica, sans-serif;
 	height: 26px;
-	width: 168px;
+	width: 182px;
 	border-width: 2px;
 	border-style: solid none none;
 	position: relative;
@@ -376,7 +376,7 @@
 	font-size: 18px;
 	font-family: Arial, Gotham, "Helvetica Neue", Helvetica, sans-serif;
 	height: 28px;
-	width: 148px;
+	width: 179px;
 	position: relative;
 	line-height: 24px;
 	padding-left: 7px;
@@ -391,7 +391,7 @@
 	font-size: 18px;
 	font-family: Arial, Gotham, "Helvetica Neue", Helvetica, sans-serif;
 	height: 28px;
-	width: 148px;
+	width: 179px;
 	position: relative;
 	line-height: 24px;
 	padding-left: 7px;
@@ -952,23 +952,15 @@ background: rgb(50, 50, 50);
 border-color: rgb(51, 176, 240);
 transform: translateX(-50%);
 font-family: arial;
-font-size: 2vh;
+font-size: 5.5vh;
+font-weight: bold;
 text-align: center;
+color: rgb(51, 176, 240);
+line-height: 17vh;
 }
 .all_service_exchanger:hover {
 cursor: pointer;
 box-shadow: 0 0 15px white;
-}
-.all_service_exchanger_text {
-position: absolute;
-left: 54.2%;
-top: 72%;
-height: 18vh;
-width: 18vh;
-font-family: arial;
-font-size: 3vh;
-text-align: center;
-color: white;
 }
 .all_service_essential_1 {
 position: absolute;
