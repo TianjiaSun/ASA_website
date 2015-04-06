@@ -16,25 +16,87 @@
 
 <div class="main_navigator"></div>
 <p class="navigator_blank"></p>
-<div class="main_navigator_h1 fadeIn fadeIn-50ms">
-<a href="what.html">What is ASA</a></div>
+<div id="what_bn" class="main_navigator_h1 fadeIn fadeIn-50ms">What is ASA</div>
 
-<div class="main_navigator_h1 fadeIn fadeIn-50ms fadeIn-Delay-50ms">
-<a href="service_apps.html">Service Store</a></div>
-<div class="main_navigator_h2 fadeIn fadeIn-50ms fadeIn-Delay-100ms">Top Services</div>
-<div class="main_navigator_h2 fadeIn fadeIn-50ms fadeIn-Delay-100ms">New Services</div>
+<div id="store_bn" class="main_navigator_h1 fadeIn fadeIn-50ms fadeIn-Delay-50ms">Service Store</div>
 
-<div class="main_navigator_h1 fadeIn fadeIn-50ms fadeIn-Delay-100ms">
-<a href="get_started.html">Get Started</a></div>
+<div id="start_bn" class="main_navigator_h1 fadeIn fadeIn-50ms fadeIn-Delay-100ms">Get Started</div>
 <div class="main_navigator_h2 fadeIn fadeIn-50ms fadeIn-Delay-100ms">Get Service</div>
 <div class="main_navigator_h2 fadeIn fadeIn-50ms fadeIn-Delay-100ms">Provide Service</div>
 
-<div class="body_container no_scroll">
-<h1 class="fadeIn fadeIn-50ms">GAUSIAN ASA</h1>
-<h2 class="fadeIn fadeIn-50ms fadeIn-Delay-20ms">We are here to change this world. Are you with us?</h2>
-<h4 class="fadeIn fadeIn-100ms fadeIn-Delay-100ms">ASA Nebula</h3>
-<h5 class="fadeIn fadeIn-100ms fadeIn-Delay-100ms">Visualization of ASA Networking</h5>
-<img class="full_container_img fadeIn fadeIn-150ms fadeIn-Delay-100ms" src="img/ASA_Nebula.jpg" width="100%" height="100%" alt="ASA Nebula"/>
+<!-- this is index page -->
+<div id="index_page" class="body_container no_scroll">
+	<h1 class="fadeIn fadeIn-50ms">GAUSIAN ASA</h1>
+	<h2 class="fadeIn fadeIn-50ms fadeIn-Delay-20ms">We are here to change this world. Are you with us?</h2>
+	<h4 class="fadeIn fadeIn-100ms fadeIn-Delay-100ms">ASA Nebula</h3>
+	<h5 class="fadeIn fadeIn-100ms fadeIn-Delay-100ms">Visualization of ASA Networking</h5>
+	<img class="full_container_img fadeIn fadeIn-150ms fadeIn-Delay-100ms" src="img/ASA_Nebula.jpg" width="100%" height="100%" alt="ASA Nebula"/>
 </div>
+
+<!-- this is what page -->
+<div id="what_page" class="body_container no_scroll">
+	<h1 class="fadeIn fadeIn-50ms">ASA, <span style="font-size: 24pt;">APP serve APP</span></h1>
+	<p></p>
+
+	<a href="asa_exchanger.html">
+	<h2 class=" fadeIn fadeIn-50ms fadeIn-Delay-50ms"><span style="color: #65cbfe">ASA Exchanger</span></h2>
+	<p class="fadeIn fadeIn-50ms fadeIn-Delay-50ms"> 
+		<span style="color: #65cbfe">
+		ASA-Exchanger is a core of GAUSIAN <br/> 
+		for data and service exchanging among <br/> 
+		worldwide APPs. <br/>
+		</span>
+	</p>
+	</a>
+
+	<a href="service_apps.html">
+	<h2 class="fadeIn fadeIn-50ms fadeIn-Delay-100ms">
+		<span style="color: #fdb926">Service APPs <span style="font-size: 2vh">(open to developers)</span></span>
+	</h2>
+	<p class="fadeIn fadeIn-50ms fadeIn-Delay-100ms"> 
+		<span style="color: #fdb926">
+		Service-APPs are hosted on servers <br/> 
+		to provide data and services like <br/>
+		"a unified interface to worldwide e-commerce websites", <br/>
+		"a unified interface for shipment and tracking", <br/>
+		"reading and writing existing database", <br/>
+		"matching better supplier", <br/>
+		use your imagine...
+		</span>	
+	</p>
+	</a>
+
+	<a href="user_apps.html">
+	<h2 class="fadeIn fadeIn-50ms fadeIn-Delay-150ms">
+		<span style="color: #84c83b">User APPs <span style="font-size: 2vh">(open to developers)</span></span>
+	</h2>
+	<p class="fadeIn fadeIn-50ms fadeIn-Delay-150ms"> 
+		<span style="color: #84c83b">	
+		User APPs run on client side. <br/>  
+		They get data and service via ASA Exchanger. <br/> 
+		Sometimes, User-APPs pay for services. <br/> 
+		</span>
+	</p>
+	</a>
+
+	<img class="full_container_img_nodrag fadeIn fadeIn-50ms fadeIn-Delay-150ms" src="img/what_userapp.png" height="100%" alt=""/>
+	<img class="full_container_img_nodrag fadeIn fadeIn-50ms fadeIn-Delay-100ms" src="img/what_serviceapp.png" height="100%" alt=""/>
+	<img class="full_container_img_nodrag fadeIn fadeIn-50ms fadeIn-Delay-50ms" src="img/what_asa.png" height="100%" alt=""/>
+</div>
+
+<!-- this is get store page -->
+<div id="store_page" class="body_container_no_bar fadeIn fadeIn-50ms"> 
+	<iframe class="full_container_img" frameBorder="0"
+	src="http://tianjiasun.github.io/Service_store/app/"></iframe>
+</div>
+
+<!-- this is get started page -->
+<div id="start_page" class="body_container_no_bar fadeIn fadeIn-50ms"> 
+	<iframe class="full_container_img" frameBorder="0"
+	src="http://tianjiasun.github.io/ASA_api/app/"></iframe>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="js/display.js"></script>
 </body>
 </html>
