@@ -96,21 +96,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
   font-size: 140%;
   text-decoration: none;
 }
-.ASA_Header a {
-	text-decoration: none;
-	color: #E0E0E0;
-}
-.ASA_Header_homepage a {
-	text-decoration: none;
+.ASA_Header:hover {
 	color: #FFBB28;
-}
-.ASA_Header a:hover {
-	color: #FFBB28;
+	cursor: pointer;
 }
 .Sign_Header {
 	font-family: Arial, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, sans-serif;
 	font-weight: bold;
-	color: #D9680D;
+	color: #FFFFFF;
 	height: 40px;
 	width: 300px;
 	position: absolute;
@@ -126,9 +119,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 	-o-transition: all 0.2s linear 0s;
 	transition: all 0.2s linear 0s;
 }
-.Sign_Header a {
+.Sign_Header:hover {
 	text-decoration: none;
 	color: #FFBB28;
+	cursor: pointer;
 }
 .body_container {
 	position: absolute;
@@ -248,7 +242,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
   position: relative;
   float: left;
   z-index: 2;
-  color: #00B0F0;
+  color: #4193e4;
   right: 0px;
   font-family: Arial, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, sans-serif;
   font-style: normal;
@@ -265,7 +259,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
   position: relative;
   float: left;
   z-index: 2;
-  color: #00B0F0;
+  color: #4193e4;
   right: 0px;
   font-family: Arial, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, sans-serif;
   font-style: normal;
@@ -405,43 +399,20 @@ position: absolute;
 	margin-left: 10px;
 	margin-right: 0px;
 	border-color: #33CCFF;
-	color: #E0E0E0;
+	color: #F0F0F0;
 	font-weight: bold;
-	-webkit-transition: all 0.2s linear 0s;
-	-o-transition: all 0.2s linear 0s;
-	transition: all 0.2s linear 0s;
+	-webkit-transition: all 0.1s linear 0s;
+	-o-transition: all 0.1s linear 0s;
+	transition: all 0.1s linear 0s;
 	z-index: 3;
 }
-.main_navigator_h1_selected {
-	font-size: 19px;
-	font-family: Arial, Gotham, "Helvetica Neue", Helvetica, sans-serif;
-	height: 26px;
-	width: 165px;
-	border-width: 1px;
-	border-style: solid none none;
-	position: relative;
-	line-height: 34px;
-	padding-left: 0px;
-	padding-bottom: 7px;
-	margin-top: 30px;
-	margin-left: 10px;
-	margin-right: 0px;
-	border-color: #33CCFF;
-	color: #FFBB28;
-	font-weight: bold;
-	-webkit-transition: all 0.2s linear 0s;
-	-o-transition: all 0.2s linear 0s;
-	transition: all 0.2s linear 0s;
-	z-index: 3;
-}
-.main_navigator_h1 a {
-	text-decoration: none;
-	color: #E0E0E0;
-}
-.main_navigator_h1_selected a {
+
+.main_navigator_h1:hover {
 	text-decoration: none;
 	color: #FFBB28;
+	cursor: pointer;
 }
+
 .main_navigator_h2 {
 	font-size: 17px;
 	font-family: Arial, Gotham, "Helvetica Neue", Helvetica, sans-serif;
@@ -457,28 +428,11 @@ position: absolute;
 	font-weight: normal;
 	z-index: 3;
 }
-.main_navigator_h2_selected {
-	font-size: 17px;
-	font-family: Arial, Gotham, "Helvetica Neue", Helvetica, sans-serif;
-	height: 28px;
-	width: 165px;
-	position: relative;
-	line-height: 24px;
-	padding-left: 7px;
-	margin-left: 20px;
-	margin-right: 0px;
-	border-color: #33CCFF;
-	color: #FFBB28;
-	font-weight: normal;
-	z-index: 3;
-}
-.main_navigator_h2 a {
-	text-decoration: none;
-	color: #FFFFFF;
-}
-.main_navigator_h2_selected a {
+
+.main_navigator_h2:hover {
 	text-decoration: none;
 	color: #FFBB28;
+	cursor: pointer;
 }
 .gausian_logo {
 	width: 70px;
@@ -486,15 +440,6 @@ position: absolute;
 	left: 65px;
 	float: left;
 	position: absolute;
-}
-.Sign_Header a:hover {
-	color: #FFFFFF;
-}
-.main_navigator_h1 a:hover {
-	color: #FFBB28;
-}
-.main_navigator_h2 a:hover {
-	color: #FFBB28;
 }
 .main_essential_app {
 	text-align: center;
