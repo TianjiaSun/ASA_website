@@ -20,14 +20,14 @@
 	overflow-y: auto;
 	clear: left;
 	min-height: 696px;
-background: rgb(32,124,229); /* Old browsers */
-background: -moz-linear-gradient(top,  rgba(32,124,229,1) 0%, rgba(113,174,232,1) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(32,124,229,1)), color-stop(100%,rgba(113,174,232,1))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  rgba(32,124,229,1) 0%,rgba(113,174,232,1) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  rgba(32,124,229,1) 0%,rgba(113,174,232,1) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  rgba(32,124,229,1) 0%,rgba(113,174,232,1) 100%); /* IE10+ */
-background: linear-gradient(to bottom,  rgba(32,124,229,1) 0%,rgba(113,174,232,1) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#207ce5', endColorstr='#71aee8',GradientType=0 ); /* IE6-9 */
+background: rgb(0,109,226); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(0,109,226,1) 0%, rgba(91,162,229,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,109,226,1)), color-stop(100%,rgba(91,162,229,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(0,109,226,1) 0%,rgba(91,162,229,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(0,109,226,1) 0%,rgba(91,162,229,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(0,109,226,1) 0%,rgba(91,162,229,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(0,109,226,1) 0%,rgba(91,162,229,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006de2', endColorstr='#5ba2e5',GradientType=0 ); /* IE6-9 */
 
 }
 .top_bar {
@@ -98,7 +98,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 }
 .ASA_Header a {
 	text-decoration: none;
-	color: #FFFFFF;
+	color: #E0E0E0;
 }
 .ASA_Header_homepage a {
 	text-decoration: none;
@@ -405,7 +405,7 @@ position: absolute;
 	margin-left: 10px;
 	margin-right: 0px;
 	border-color: #33CCFF;
-	color: #FFFFFF;
+	color: #E0E0E0;
 	font-weight: bold;
 	-webkit-transition: all 0.2s linear 0s;
 	-o-transition: all 0.2s linear 0s;
@@ -436,7 +436,7 @@ position: absolute;
 }
 .main_navigator_h1 a {
 	text-decoration: none;
-	color: #FFFFFF;
+	color: #E0E0E0;
 }
 .main_navigator_h1_selected a {
 	text-decoration: none;
