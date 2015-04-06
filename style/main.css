@@ -54,6 +54,9 @@
   font-size: 140%;
   text-decoration: none;
 }
+.add_top_distance {
+  top: 15px;
+}
 .ASA_Header_short {
   font-family: Arial, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, sans-serif;
   font-weight: bold;
