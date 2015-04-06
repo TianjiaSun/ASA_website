@@ -221,7 +221,7 @@
   top: 0px;
   right: 0px;
   clear: left;
-  padding-bottom: 10px;
+  padding-bottom: 18px;
 }
 .body_container h2 {
   position: relative;
@@ -232,13 +232,14 @@
   font-family: Arial, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, sans-serif;
   font-style: normal;
   text-align: left;
-  font-size: 3vh;
+  font-size: 2.6vh;
   left: 30px;
-  top: -47px;
+  top: -38px;
   right: 0px;
   clear: left;
-  height: 0px;
+  height: 15px;
   padding-top: 0vh;
+  margin-top: 0px;
 }
 .body_container_h2 {
 	position: relative;
@@ -261,12 +262,16 @@
 	text-decoration: none;
 }
 .body_container h4 {
-position: absolute;
+  position: absolute;
   float: right;
   z-index: 2;
   color: #BBBBBB;
-  bottom: 13px;
-  right: 30px;
+  bottom: 46px;
+  padding: 0px;
+  margin: 0px;
+  height: 20px;
+  line-height: 20px;
+  right: 25px;
   width: 300px;
   font-family: Arial, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, sans-serif;
   font-style: normal;
@@ -274,12 +279,16 @@ position: absolute;
   font-size: 200%;
 }
 .body_container h5 {
-  position: absolute;
+position: absolute;
   float: right;
   z-index: 2;
   color: #999999;
-  bottom: 5px;
-  right: 30px;
+  bottom: 14px;
+  padding: 0px;
+  height: 20px;
+  margin: 0px;
+  line-height: 20px;
+  right: 25px;
   width: 500px;
   font-family: Arial, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, sans-serif;
   font-style: normal;
