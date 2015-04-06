@@ -2,9 +2,8 @@
 /* CSS Document */
 
 .main_navigator {
-	background-color: #00B0F0;
 	float: left;
-	width: 220px;
+	width: 200px;
 	position: absolute;
 	left: 0px;
 	top: 0px;
@@ -21,6 +20,14 @@
 	overflow-y: auto;
 	clear: left;
 	min-height: 696px;
+	 background: #23538a;
+  background: -moz-linear-gradient(top, #23538a 0%, #5db9dd 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#23538a), color-stop(100%,#5db9dd));
+  background: -webkit-linear-gradient(top, #23538a 0%,#5db9dd 100%);
+  background: -o-linear-gradient(top, #23538a 0%,#5db9dd 100%);
+  background: -ms-linear-gradient(top, #23538a 0%,#5db9dd 100%);
+  background: linear-gradient(to bottom, #23538a 0%,#5db9dd 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#23538a', endColorstr='#5db9dd',GradientType=0 );
 }
 .top_bar {
 	background-color: #000000;
@@ -32,36 +39,36 @@
 	top: 0px;
 }
 .ASA_Header {
-	font-family: Arial, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, sans-serif;
-	font-weight: bold;
-	color: #FFFFFF;
-	height: 46px;
-	width: 220px;
-	position: absolute;
-	z-index: 2;
-	text-align: left;
-	left: 15px;
-	top: 0px;
-	line-height: 46px;
-	padding-top: 0%;
-	font-size: 146%;
-	text-decoration: none;
+  font-family: Arial, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, sans-serif;
+  font-weight: bold;
+  color: #FFBB28;
+  height: 46px;
+  width: auto;
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+  left: 17px;
+  top: 0px;
+  line-height: 46px;
+  padding-top: 0%;
+  font-size: 140%;
+  text-decoration: none;
 }
 .ASA_Header_homepage {
-	font-family: Arial, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, sans-serif;
-	font-weight: bold;
-	color: #FFBB28;
-	height: 46px;
-	width: 200px;
-	position: absolute;
-	z-index: 2;
-	text-align: center;
-	left: 0px;
-	top: 0px;
-	line-height: 46px;
-	padding-top: 0%;
-	font-size: 140%;
-	text-decoration: none;
+  font-family: Arial, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, sans-serif;
+  font-weight: bold;
+  color: #FFBB28;
+  height: 46px;
+  width: auto;
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+  left: 17px;
+  top: 0px;
+  line-height: 46px;
+  padding-top: 0%;
+  font-size: 140%;
+  text-decoration: none;
 }
 .ASA_Header a {
 	text-decoration: none;
@@ -101,7 +108,7 @@
 	position: absolute;
 	z-index: 0;
 	top: 46px;
-	left: 220px;
+	left: 200px;
 	right: 0px;
 	bottom: 0px;
 	overflow-y: scroll;
@@ -112,12 +119,15 @@
 	position: absolute;
 	z-index: 0;
 	top: 46px;
-	left: 220px;
+	left: 200px;
 	right: 0px;
 	bottom: 0px;
 	overflow-y: hidden;
 	min-width: 1000px;
 	min-height: 650px;
+}
+.no_scroll {
+	overflow: hidden;
 }
 .fadeIn {
         /* CSS needed for animation
@@ -198,37 +208,37 @@
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 
 .body_container h1 {
-	position: relative;
-	float: left;
-	z-index: 2;
-	color: #00B0F0;
-	right: 0px;
-	font-family: Arial, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, sans-serif;
-	font-style: normal;
-	text-align: left;
-	font-size: 6.5vh;
-	left: 50px;
-	top: 0px;
-	right: 0px;
-	clear: left;
-	padding-bottom: 10px;
+  position: relative;
+  float: left;
+  z-index: 2;
+  color: #00B0F0;
+  right: 0px;
+  font-family: Arial, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, sans-serif;
+  font-style: normal;
+  text-align: left;
+  font-size: 5.5vh;
+  left: 30px;
+  top: 0px;
+  right: 0px;
+  clear: left;
+  padding-bottom: 10px;
 }
 .body_container h2 {
-	position: relative;
-	float: left;
-	z-index: 2;
-	color: #00B0F0;
-	right: 0px;
-	font-family: Arial, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, sans-serif;
-	font-style: normal;
-	text-align: left;
-	font-size: 3vh;
-	left: 50px;
-	top: -47px;
-	right: 0px;
-	clear: left;
-	height: 0px;
-	padding-top: 0vh;
+  position: relative;
+  float: left;
+  z-index: 2;
+  color: #00B0F0;
+  right: 0px;
+  font-family: Arial, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, sans-serif;
+  font-style: normal;
+  text-align: left;
+  font-size: 3vh;
+  left: 30px;
+  top: -47px;
+  right: 0px;
+  clear: left;
+  height: 0px;
+  padding-top: 0vh;
 }
 .body_container_h2 {
 	position: relative;
@@ -251,30 +261,30 @@
 	text-decoration: none;
 }
 .body_container h4 {
-	position: absolute;
-	float: right;
-	z-index: 2;
-	color: #BBBBBB;
-	bottom: 10px;
-	right: 50px;
-	width: 300px;
-	font-family: Arial, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, sans-serif;
-	font-style: normal;
-	text-align: right;
-	font-size: 230%;
+position: absolute;
+  float: right;
+  z-index: 2;
+  color: #BBBBBB;
+  bottom: 13px;
+  right: 30px;
+  width: 300px;
+  font-family: Arial, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, sans-serif;
+  font-style: normal;
+  text-align: right;
+  font-size: 200%;
 }
 .body_container h5 {
-	position: absolute;
-	float: right;
-	z-index: 2;
-	color: #999999;
-	bottom: 5px;
-	right: 50px;
-	width: 500px;
-	font-family: Arial, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, sans-serif;
-	font-style: normal;
-	text-align: right;
-	font-size: 100%;
+  position: absolute;
+  float: right;
+  z-index: 2;
+  color: #999999;
+  bottom: 5px;
+  right: 30px;
+  width: 500px;
+  font-family: Arial, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, sans-serif;
+  font-style: normal;
+  text-align: right;
+  font-size: 100%;
 }
 .body_container p {
 	position: relative;
@@ -321,10 +331,10 @@
 	height: 40px;
 }
 .main_navigator_h1 {
-	font-size: 20px;
+	font-size: 19px;
 	font-family: Arial, Gotham, "Helvetica Neue", Helvetica, sans-serif;
 	height: 26px;
-	width: 182px;
+	width: 165px;
 	border-width: 2px;
 	border-style: solid none none;
 	position: relative;
@@ -343,10 +353,10 @@
 	z-index: 3;
 }
 .main_navigator_h1_selected {
-	font-size: 20px;
+	font-size: 19px;
 	font-family: Arial, Gotham, "Helvetica Neue", Helvetica, sans-serif;
 	height: 26px;
-	width: 182px;
+	width: 165px;
 	border-width: 2px;
 	border-style: solid none none;
 	position: relative;
@@ -373,10 +383,10 @@
 	color: #FFBB28;
 }
 .main_navigator_h2 {
-	font-size: 18px;
+	font-size: 17px;
 	font-family: Arial, Gotham, "Helvetica Neue", Helvetica, sans-serif;
 	height: 28px;
-	width: 179px;
+	width: 165px;
 	position: relative;
 	line-height: 24px;
 	padding-left: 7px;
@@ -388,10 +398,10 @@
 	z-index: 3;
 }
 .main_navigator_h2_selected {
-	font-size: 18px;
+	font-size: 17px;
 	font-family: Arial, Gotham, "Helvetica Neue", Helvetica, sans-serif;
 	height: 28px;
-	width: 179px;
+	width: 165px;
 	position: relative;
 	line-height: 24px;
 	padding-left: 7px;
