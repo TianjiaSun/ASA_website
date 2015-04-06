@@ -30,12 +30,18 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#23538a', endColorstr='#5db9dd',GradientType=0 );
 }
 .top_bar {
-	background-color: rgba(0,0,0,0.5);
-	height: 46px;
-	width: 100%;
+background: -moz-linear-gradient(left,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=1 ); /* IE6-9 */
+	height: 40px;
+	width: calc(100% - 400px);
 	position: absolute;
 	z-index: 1;
-	left: 0px;
+	left: 400px;
 	top: 0px;
 }
 .ASA_Header {
@@ -104,14 +110,14 @@
 	font-family: Arial, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, sans-serif;
 	font-weight: bold;
 	color: #D9680D;
-	height: 46px;
+	height: 40px;
 	width: 300px;
 	position: absolute;
 	z-index: 2;
 	text-align: right;
 	right: 0px;
 	top: 0px;
-	line-height: 46px;
+	line-height: 40px;
 	padding-top: 0%;
 	padding-right: 20px;
 	font-size: 110%;
@@ -251,6 +257,7 @@
   top: 0px;
   right: 0px;
   clear: left;
+    margin-top: 10px;
   padding-bottom: 18px;
 }
 .body_container h2 {
@@ -264,7 +271,7 @@
   text-align: left;
   font-size: 2.6vh;
   left: 30px;
-  top: -38px;
+  top: -46px;
   right: 0px;
   clear: left;
   height: 20px;
@@ -343,6 +350,8 @@ position: absolute;
 	line-height: 150%;
 	padding-left: 50px;
 	padding-right: 50px;
+	  margin-top: 0px;
+	  margin-bottom: 6vh;
 }
 .body_container a {
 	text-decoration: none;
@@ -385,7 +394,7 @@ position: absolute;
 	font-family: Arial, Gotham, "Helvetica Neue", Helvetica, sans-serif;
 	height: 26px;
 	width: 165px;
-	border-width: 2px;
+	border-width: 1px;
 	border-style: solid none none;
 	position: relative;
 	line-height: 34px;
@@ -407,7 +416,7 @@ position: absolute;
 	font-family: Arial, Gotham, "Helvetica Neue", Helvetica, sans-serif;
 	height: 26px;
 	width: 165px;
-	border-width: 2px;
+	border-width: 1px;
 	border-style: solid none none;
 	position: relative;
 	line-height: 34px;
