@@ -237,10 +237,10 @@
   top: -38px;
   right: 0px;
   clear: left;
-  height: 15px;
+  height: 20px;
   padding-top: 0vh;
-  margin-top: 0px;
-  margin-bottom: 4px;
+  margin-top: 2px;
+  margin-bottom: 8px;
 }
 .body_container_h2 {
 	position: relative;
@@ -961,7 +961,7 @@ text-decoration: none;
 }
 .all_service_exchanger {
 position: absolute;
-left: 60%;
+left: 65%;
 top: 65%;
 height: 18vh;
 width: 18vh;
@@ -984,7 +984,7 @@ box-shadow: 0 0 15px white;
 }
 .all_service_essential_1 {
 position: absolute;
-left: 52.2%;
+left: 57.2%;
 top: 51%;
 height: 6vh;
 width: 6vh;
@@ -1006,7 +1006,7 @@ box-shadow: 0 0 15px white;
 }
 .all_service_essential_2 {
 position: absolute;
-left: 68%;
+left: 73%;
 top: 47%;
 height: 7vh;
 width: 7vh;
@@ -1028,7 +1028,7 @@ box-shadow: 0 0 15px white;
 }
 .all_service_essential_3 {
 position: absolute;
-left: 82%;
+left: 87%;
 top: 61%;
 height: 6vh;
 width: 6vh;
@@ -1050,7 +1050,7 @@ box-shadow: 0 0 15px white;
 }
 .all_service_essential_4 {
 position: absolute;
-left: 40%;
+left: 45%;
 top: 61%;
 height: 5vh;
 width: 5vh;
@@ -1073,7 +1073,7 @@ box-shadow: 0 0 15px white;
 .all_service_developer_1 {
 position: absolute;
 left: 59.9%;
-top: 23%;
+top: 28%;
 height: 7vh;
 width: 7vh;
 border-radius: 8vh;
@@ -1094,7 +1094,7 @@ box-shadow: 0 0 15px white;
 }
 .all_service_developer_2 {
 position: absolute;
-left: 41%;
+left: 46%;
 top: 46%;
 height: 5vh;
 width: 5vh;
@@ -1116,7 +1116,7 @@ box-shadow: 0 0 15px white;
 }
 .all_service_developer_3 {
 position: absolute;
-left: 79%;
+left: 84%;
 top: 43%;
 height: 6vh;
 width: 6vh;
