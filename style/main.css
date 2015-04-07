@@ -3,7 +3,7 @@
 
 .main_navigator {
 	float: left;
-	width: 200px;
+	width: 170px;
 	position: absolute;
 	left: 0px;
 	top: 0px;
@@ -20,6 +20,7 @@
 	overflow-y: auto;
 	clear: left;
 	min-height: 696px;
+	  box-shadow: 0 0 5px black;
 background: rgb(0,109,226); /* Old browsers */
 background: -moz-linear-gradient(top,  rgba(0,109,226,1) 0%, rgba(91,162,229,1) 100%); /* FF3.6+ */
 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,109,226,1)), color-stop(100%,rgba(91,162,229,1))); /* Chrome,Safari4+ */
@@ -54,11 +55,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
   position: absolute;
   z-index: 2;
   text-align: center;
-  left: 17px;
+  left: 10px;
   top: 0px;
   line-height: 46px;
   padding-top: 0%;
-  font-size: 140%;
+  font-size: 132%;
   text-decoration: none;
 }
 .add_top_distance {
@@ -139,7 +140,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 	position: absolute;
 	z-index: 0;
 	top: 46px;
-	left: 200px;
+	left: 170px;
 	right: 0px;
 	bottom: 0px;
 	overflow-y: hidden;
@@ -150,7 +151,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 	position: absolute;
 	z-index: 0;
 	top: 0px;
-	left: 200px;
+	left: 170px;
 	right: 0px;
 	bottom: 0px;
 	overflow-y: hidden;
@@ -381,14 +382,14 @@ position: absolute;
 	float: left;
 }
 .navigator_blank {
-	width: 200px;
+	width: 170px;
 	height: 40px;
 }
 .main_navigator_h1 {
 	font-size: 19px;
 	font-family: Arial, Gotham, "Helvetica Neue", Helvetica, sans-serif;
 	height: 26px;
-	width: 165px;
+	width: 158px;
 	border-width: 1px;
 	border-style: solid none none;
 	position: relative;
@@ -396,7 +397,7 @@ position: absolute;
 	padding-left: 0px;
 	padding-bottom: 7px;
 	margin-top: 30px;
-	margin-left: 10px;
+	margin-left: 4px;
 	margin-right: 0px;
 	border-color: #33CCFF;
 	color: #F0F0F0;
@@ -421,7 +422,7 @@ position: absolute;
 	position: relative;
 	line-height: 24px;
 	padding-left: 7px;
-	margin-left: 20px;
+	margin-left: 10px;
 	margin-right: 0px;
 	border-color: #33CCFF;
 	color: #E0E0E0;
