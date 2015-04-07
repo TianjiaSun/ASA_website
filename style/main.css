@@ -372,6 +372,16 @@ position: absolute;
 	right: 0px;
 	float: left;
 }
+.full_container_img_special_2{
+	position: absolute;
+	width: 99.8%;
+	height: 100%;
+	left: 5%;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	float: left;
+}
 .full_container_img_nodrag{
 	position: absolute;
 	height: 100%;
