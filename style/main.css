@@ -396,7 +396,7 @@ position: absolute;
 	height: 40px;
 }
 .main_navigator_h1 {
-	font-size: 19px;
+	font-size: 18px;
 	font-family: Arial, Gotham, "Helvetica Neue", Helvetica, sans-serif;
 	height: 26px;
 	width: 158px;
@@ -411,7 +411,6 @@ position: absolute;
 	margin-right: 0px;
 	border-color: #33CCFF;
 	color: #F0F0F0;
-	font-weight: bold;
 	-webkit-transition: all 0.1s linear 0s;
 	-o-transition: all 0.1s linear 0s;
 	transition: all 0.1s linear 0s;
@@ -425,7 +424,7 @@ position: absolute;
 }
 
 .main_navigator_h2 {
-	font-size: 17px;
+	font-size: 16px;
 	font-family: Arial, Gotham, "Helvetica Neue", Helvetica, sans-serif;
 	height: 28px;
 	width: 165px;
