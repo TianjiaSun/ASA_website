@@ -13,7 +13,7 @@
 	-webkit-transition: all;
 	-o-transition: all;
 	transition: all;
-	z-index: 0;
+	z-index: 1;
 	background-size: contain;
 	background-repeat: repeat-y;
 	overflow-x: auto;
@@ -49,17 +49,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 .ASA_Header {
   font-family: Arial, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, sans-serif;
   font-weight: bold;
-  color: #FFBB28;
-  height: 46px;
+  color: #FFFFFF;
+  height: 45px;
   width: auto;
   position: absolute;
   z-index: 2;
   text-align: center;
-  left: 10px;
-  top: 0px;
+  left: 12px;
+  top: -2px;
   line-height: 46px;
-  padding-top: 0%;
-  font-size: 132%;
+  padding-top: 0px;
+  font-size: 19px;
   text-decoration: none;
 }
 .add_top_distance {
